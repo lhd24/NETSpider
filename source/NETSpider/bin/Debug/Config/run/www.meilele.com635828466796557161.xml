@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TaskRunItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1.0</Version>
+  <TaskID>11</TaskID>
+  <CategroyName><![CDATA[meilele.com]]></CategroyName>
+  <TaskName><![CDATA[www.meilele.com]]></TaskName>
+  <DownFilePath><![CDATA[C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\bin\Debug\Config\data]]></DownFilePath>
+  <LoginFlag>false</LoginFlag>
+  <LoginUrl><![CDATA[]]></LoginUrl>
+  <WebCookie><![CDATA[ECS_ID=j02c08185e85ebd44b12e5d77038428c6d5a89c1; region_name=%E5%85%A8%E5%9B%BD; MA_si=u6c4iv3ae29; MLL_CID=1jh1cy9v8u5w]]></WebCookie>
+  <WebEncode>UTF8</WebEncode>
+  <UrlEncode>AUTO</UrlEncode>
+  <Remark><![CDATA[http://www.meilele.com/shenzhen/]]></Remark>
+  <WaitMinutes>1</WaitMinutes>
+  <WaitUrlCount>0</WaitUrlCount>
+  <UrlCount>1</UrlCount>
+  <DownFileQueue>true</DownFileQueue>
+  <TaskType>Normal</TaskType>
+  <ExcuteType>GetOnly</ExcuteType>
+  <IsAjax>false</IsAjax>
+  <ThreadNum>6</ThreadNum>
+  <TryAgainCount>3</TryAgainCount>
+  <TryAgainFlag>true</TryAgainFlag>
+  <AutoLog>true</AutoLog>
+  <AutoErrorLog>true</AutoErrorLog>
+  <TempUrl><![CDATA[http://www.meilele.com/category-chuang/goods-21177.html?page=1&index=1]]></TempUrl>
+  <LastStartPos><![CDATA[<h1 class="goods_name">]]></LastStartPos>
+  <LastEndPos><![CDATA[<div class="d_list">]]></LastEndPos>
+  <UrlList>
+    <TaskItemUrl>
+      <MainUrl><![CDATA[http://www.meilele.com/category-ertongfang/]]></MainUrl>
+      <UrlCount>0</UrlCount>
+      <NextPageFlag>true</NextPageFlag>
+      <NextPageText><![CDATA[下一页]]></NextPageText>
+      <LevelCount>1</LevelCount>
+      <NavigateFlag>true</NavigateFlag>
+      <LevelUrlList>
+        <TaskItemLevelUrl>
+          <LevelID>1</LevelID>
+          <LevelUrl>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</LevelUrl>
+        </TaskItemLevelUrl>
+      </LevelUrlList>
+      <StartPos><![CDATA[]]></StartPos>
+      <EndPos><![CDATA[]]></EndPos>
+    </TaskItemUrl>
+  </UrlList>
+  <ColumnItemList>
+    <TaskColumnItem>
+      <DataFileType>Text</DataFileType>
+      <DataTextType><![CDATA[标题]]></DataTextType>
+      <StartPos><![CDATA[<span id="JS_attr_title_name">]]></StartPos>
+      <EndPos><![CDATA[</span>]]></EndPos>
+      <LimitSign>LimitSign1</LimitSign>
+      <LimitSignText><![CDATA[]]></LimitSignText>
+      <ExportLimit>ExportLimit1</ExportLimit>
+      <ExportLimitText><![CDATA[]]></ExportLimitText>
+      <LimitSignSpaceFlag>false</LimitSignSpaceFlag>
+      <ExportLimitSpaceFlag>true</ExportLimitSpaceFlag>
+    </TaskColumnItem>
+    <TaskColumnItem>
+      <DataFileType>Text</DataFileType>
+      <DataTextType><![CDATA[编号]]></DataTextType>
+      <StartPos><![CDATA[编号：]]></StartPos>
+      <EndPos><![CDATA[</span>]]></EndPos>
+      <LimitSign>LimitSign1</LimitSign>
+      <LimitSignText><![CDATA[]]></LimitSignText>
+      <ExportLimit>ExportLimit1</ExportLimit>
+      <ExportLimitText><![CDATA[]]></ExportLimitText>
+      <LimitSignSpaceFlag>false</LimitSignSpaceFlag>
+      <ExportLimitSpaceFlag>true</ExportLimitSpaceFlag>
+    </TaskColumnItem>
+    <TaskColumnItem>
+      <DataFileType>Text</DataFileType>
+      <DataTextType><![CDATA[二级标题]]></DataTextType>
+      <StartPos><![CDATA[<span id="DY_main_goods_sub_title">]]></StartPos>
+      <EndPos><![CDATA[</span>]]></EndPos>
+      <LimitSign>LimitSign1</LimitSign>
+      <LimitSignText><![CDATA[]]></LimitSignText>
+      <ExportLimit>ExportLimit1</ExportLimit>
+      <ExportLimitText><![CDATA[]]></ExportLimitText>
+      <LimitSignSpaceFlag>true</LimitSignSpaceFlag>
+      <ExportLimitSpaceFlag>true</ExportLimitSpaceFlag>
+    </TaskColumnItem>
+    <TaskColumnItem>
+      <DataFileType>Image</DataFileType>
+      <DataTextType><![CDATA[图片]]></DataTextType>
+      <StartPos><![CDATA[<img src="]]></StartPos>
+      <EndPos><![CDATA[" width="565" height="374"]]></EndPos>
+      <LimitSign>LimitSign1</LimitSign>
+      <LimitSignText><![CDATA[]]></LimitSignText>
+      <ExportLimit>ExportLimit2</ExportLimit>
+      <ExportLimitText><![CDATA[]]></ExportLimitText>
+      <LimitSignSpaceFlag>true</LimitSignSpaceFlag>
+      <ExportLimitSpaceFlag>true</ExportLimitSpaceFlag>
+    </TaskColumnItem>
+    <TaskColumnItem>
+      <DataFileType>Text</DataFileType>
+      <DataTextType><![CDATA[本站价]]></DataTextType>
+      <StartPos><![CDATA[本站价：]]></StartPos>
+      <EndPos><![CDATA[</del>]]></EndPos>
+      <LimitSign>LimitSign1</LimitSign>
+      <LimitSignText><![CDATA[]]></LimitSignText>
+      <ExportLimit>ExportLimit2</ExportLimit>
+      <ExportLimitText><![CDATA[]]></ExportLimitText>
+      <LimitSignSpaceFlag>true</LimitSignSpaceFlag>
+      <ExportLimitSpaceFlag>true</ExportLimitSpaceFlag>
+    </TaskColumnItem>
+  </ColumnItemList>
+  <ConnectionType>None</ConnectionType>
+  <ConnectionString><![CDATA[]]></ConnectionString>
+  <PubWebCookie><![CDATA[]]></PubWebCookie>
+  <PubDataTable><![CDATA[]]></PubDataTable>
+  <PubSql><![CDATA[]]></PubSql>
+  <PubEncode>AUTO</PubEncode>
+  <TriggerType>GetData</TriggerType>
+  <TaskPlanItemList>
+    <TaskPlanItem>
+      <TaskPlanItemID>1</TaskPlanItemID>
+      <TaskID>8</TaskID>
+      <TaskType>Task</TaskType>
+      <TaskItemType>0</TaskItemType>
+      <CategroyName><![CDATA[localhost]]></CategroyName>
+      <TaskName><![CDATA[movie.douban.com]]></TaskName>
+      <TaskArgs><![CDATA[]]></TaskArgs>
+    </TaskPlanItem>
+  </TaskPlanItemList>
+  <TaskTempName><![CDATA[www.meilele.com635828466796557161]]></TaskTempName>
+  <TrueCount>0</TrueCount>
+  <ErrorCount>0</ErrorCount>
+  <TotalCount>0</TotalCount>
+  <ParentTaskTempName><![CDATA[]]></ParentTaskTempName>
+  <GaterherState>Normal</GaterherState>
+  <GatherUrlItemCompleteList />
+  <GatherUrlItemTempList />
+</TaskRunItem>

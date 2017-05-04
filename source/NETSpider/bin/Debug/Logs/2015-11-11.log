@@ -1,0 +1,474 @@
+﻿
+2015/11/11 13:50:13 : 致命的 －－ 不能保存TableConfigCollection配置文件! 。错误类型:。位置：Save2File<T> at offset 429 in file:line:column C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Common\XmlHelper.cs:74:17
+
+
+2015/11/11 13:50:13:文件“C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\bin\Debug\Config\categroy\news\news.qq.com.xml”正由另一进程使用，因此该进程无法访问该文件。
+
+2015/11/11 13:50:13:出现应用程序未处理的异常：2015/11/11 13:50:13
+异常类型：DMSFrameException
+异常消息：不能保存TableConfigCollection配置文件：生成 XML 文档时出错。
+异常信息：   在 NETSpider.XmlHelper.Save2File[T](T entity, String filePath, String& errMsg) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Common\XmlHelper.cs:行号 76
+   在 NETSpider.XmlHelper.LoadFromXml[T](String filePath, String& errMsg) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Common\XmlHelper.cs:行号 88
+   在 NETSpider.frmTask..ctor(String categoryName, String taskName, TaskRunItem taskRunItemEntity) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmTask.cs:行号 66
+   在 NETSpider.frmTask..ctor(String categoryName, String taskName) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmTask.cs:行号 35
+   在 NETSpider.frmMain.cnEditTask_Click(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1067
+   在 NETSpider.frmMain.dgvList_CellDoubleClick(Object sender, DataGridViewCellEventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 610
+   在 System.Windows.Forms.DataGridView.OnCellDoubleClick(DataGridViewCellEventArgs e)
+   在 System.Windows.Forms.DataGridView.OnDoubleClick(EventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.DataGridView.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:50:20:XML 文档(25, 42)中有错误。
+
+2015/11/11 13:50:31:XML 文档(25, 42)中有错误。
+
+2015/11/11 13:51:20:出现应用程序未处理的异常：2015/11/11 13:51:20
+异常类型：DirectoryNotFoundException
+异常消息：未能找到路径“F:\Projects\NETSpider\NETSpider\bin\Debug\Config\data\www.meilele.com635828463955882466.log”的一部分。
+异常信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   在 System.IO.File.Create(String path)
+   在 DMSFrame.Loggers.FileLogger..ctor(String filePath) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Loggers\FileLogger.cs:行号 29
+   在 NETSpider.Gather.cGatherTaskTabPageManage..ctor(TabControl tabTaskRunLog, TaskRunItem _taskEntity) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Gather\cGatherTaskTabPageManage.cs:行号 67
+   在 NETSpider.frmMain.BindRunTask(EnumThreadState gaterherState) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 348
+   在 NETSpider.frmMain.ReloadDataGridView(TreeNode node) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 256
+   在 NETSpider.frmMain.tvMain_AfterSelect(Object sender, TreeViewEventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 228
+   在 System.Windows.Forms.TreeView.OnAfterSelect(TreeViewEventArgs e)
+   在 System.Windows.Forms.TreeView.TvnSelected(NMTREEVIEW* nmtv)
+   在 System.Windows.Forms.TreeView.WmNotify(Message& m)
+   在 System.Windows.Forms.TreeView.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:51:21:出现应用程序未处理的异常：2015/11/11 13:51:21
+异常类型：DirectoryNotFoundException
+异常消息：未能找到路径“F:\Projects\NETSpider\NETSpider\bin\Debug\Config\data\www.meilele.com635828463955882466.log”的一部分。
+异常信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   在 System.IO.File.Create(String path)
+   在 DMSFrame.Loggers.FileLogger..ctor(String filePath) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Loggers\FileLogger.cs:行号 29
+   在 NETSpider.Gather.cGatherTaskTabPageManage..ctor(TabControl tabTaskRunLog, TaskRunItem _taskEntity) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Gather\cGatherTaskTabPageManage.cs:行号 67
+   在 NETSpider.frmMain.BindRunTask(EnumThreadState gaterherState) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 348
+   在 NETSpider.frmMain.ReloadDataGridView(TreeNode node) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 256
+   在 NETSpider.frmMain.tvMain_AfterSelect(Object sender, TreeViewEventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 228
+   在 NETSpider.frmMain.cnStartTask_Click(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 769
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.ToolStripDropDown.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStripDropDown.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:53:15:出现应用程序未处理的异常：2015/11/11 13:53:15
+异常类型：DirectoryNotFoundException
+异常消息：未能找到路径“F:\Projects\NETSpider\NETSpider\bin\Debug\Config\data\www.meilele.com635828463955882466.log”的一部分。
+异常信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   在 System.IO.File.Create(String path)
+   在 DMSFrame.Loggers.FileLogger..ctor(String filePath) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Loggers\FileLogger.cs:行号 29
+   在 NETSpider.Gather.cGatherTaskTabPageManage..ctor(TabControl tabTaskRunLog, TaskRunItem _taskEntity) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Gather\cGatherTaskTabPageManage.cs:行号 67
+   在 NETSpider.frmMain.BindRunTask(EnumThreadState gaterherState) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 348
+   在 NETSpider.frmMain.ReloadDataGridView(TreeNode node) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 256
+   在 NETSpider.frmMain.tvMain_AfterSelect(Object sender, TreeViewEventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 228
+   在 System.Windows.Forms.TreeView.OnAfterSelect(TreeViewEventArgs e)
+   在 System.Windows.Forms.TreeView.TvnSelected(NMTREEVIEW* nmtv)
+   在 System.Windows.Forms.TreeView.WmNotify(Message& m)
+   在 System.Windows.Forms.TreeView.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:53:16:出现应用程序未处理的异常：2015/11/11 13:53:16
+异常类型：DirectoryNotFoundException
+异常消息：未能找到路径“F:\Projects\NETSpider\NETSpider\bin\Debug\Config\data\www.meilele.com635828463955882466.log”的一部分。
+异常信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   在 System.IO.File.Create(String path)
+   在 DMSFrame.Loggers.FileLogger..ctor(String filePath) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Loggers\FileLogger.cs:行号 29
+   在 NETSpider.Gather.cGatherTaskTabPageManage..ctor(TabControl tabTaskRunLog, TaskRunItem _taskEntity) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Gather\cGatherTaskTabPageManage.cs:行号 67
+   在 NETSpider.frmMain.BindRunTask(EnumThreadState gaterherState) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 348
+   在 NETSpider.frmMain.ReloadDataGridView(TreeNode node) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 256
+   在 NETSpider.frmMain.tvMain_AfterSelect(Object sender, TreeViewEventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 228
+   在 NETSpider.frmMain.cnStartTask_Click(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 769
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.ToolStripDropDown.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStripDropDown.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:12:出现应用程序未处理的异常：2015/11/11 13:54:12
+异常类型：DirectoryNotFoundException
+异常消息：未能找到路径“F:\Projects\NETSpider\NETSpider\bin\Debug\Config\data\www.meilele.com635828463955882466.log”的一部分。
+异常信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   在 System.IO.File.Create(String path)
+   在 DMSFrame.Loggers.FileLogger..ctor(String filePath) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Loggers\FileLogger.cs:行号 29
+   在 NETSpider.Gather.cGatherTaskTabPageManage..ctor(TabControl tabTaskRunLog, TaskRunItem _taskEntity) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Gather\cGatherTaskTabPageManage.cs:行号 67
+   在 NETSpider.frmMain.BindRunTask(EnumThreadState gaterherState) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 348
+   在 NETSpider.frmMain.frmMain_Load(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 55
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:14:出现应用程序未处理的异常：2015/11/11 13:54:14
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:15:出现应用程序未处理的异常：2015/11/11 13:54:15
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:16:出现应用程序未处理的异常：2015/11/11 13:54:16
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:16:出现应用程序未处理的异常：2015/11/11 13:54:16
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:17:出现应用程序未处理的异常：2015/11/11 13:54:17
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:17:出现应用程序未处理的异常：2015/11/11 13:54:17
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:17:出现应用程序未处理的异常：2015/11/11 13:54:17
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:17:出现应用程序未处理的异常：2015/11/11 13:54:17
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:18:出现应用程序未处理的异常：2015/11/11 13:54:18
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:18:出现应用程序未处理的异常：2015/11/11 13:54:18
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:19:出现应用程序未处理的异常：2015/11/11 13:54:19
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:20:出现应用程序未处理的异常：2015/11/11 13:54:20
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:20:出现应用程序未处理的异常：2015/11/11 13:54:20
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:21:出现应用程序未处理的异常：2015/11/11 13:54:21
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:22:出现应用程序未处理的异常：2015/11/11 13:54:22
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:25:出现应用程序未处理的异常：2015/11/11 13:54:25
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:26:出现应用程序未处理的异常：2015/11/11 13:54:26
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:26:出现应用程序未处理的异常：2015/11/11 13:54:26
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:28:出现应用程序未处理的异常：2015/11/11 13:54:28
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:29:出现应用程序未处理的异常：2015/11/11 13:54:29
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 13:54:34:出现应用程序未处理的异常：2015/11/11 13:54:34
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 14:00:20:出现应用程序未处理的异常：2015/11/11 14:00:20
+异常类型：DirectoryNotFoundException
+异常消息：未能找到路径“F:\Projects\NETSpider\NETSpider\bin\Debug\Config\data\www.meilele.com635828463955882466.log”的一部分。
+异常信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   在 System.IO.File.Create(String path)
+   在 DMSFrame.Loggers.FileLogger..ctor(String filePath) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Loggers\FileLogger.cs:行号 29
+   在 NETSpider.Gather.cGatherTaskTabPageManage..ctor(TabControl tabTaskRunLog, TaskRunItem _taskEntity) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Gather\cGatherTaskTabPageManage.cs:行号 67
+   在 NETSpider.frmMain.BindRunTask(EnumThreadState gaterherState) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 348
+   在 NETSpider.frmMain.frmMain_Load(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 55
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 14:00:22:出现应用程序未处理的异常：2015/11/11 14:00:22
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 14:00:22:出现应用程序未处理的异常：2015/11/11 14:00:22
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 14:00:22:出现应用程序未处理的异常：2015/11/11 14:00:22
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 14:00:23:出现应用程序未处理的异常：2015/11/11 14:00:23
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 NETSpider.frmMain.timer1_Tick(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmMain.cs:行号 1436
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+2015/11/11 14:10:02:出现应用程序未处理的异常：2015/11/11 14:10:02
+异常类型：DirectoryNotFoundException
+异常消息：未能找到路径“F:\Projects\NETSpider\NETSpider\bin\Debug\Config\data”的一部分。
+异常信息：   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.InternalCreateDirectory(String fullPath, String path, DirectorySecurity dirSecurity)
+   在 System.IO.Directory.CreateDirectory(String path, DirectorySecurity directorySecurity)
+   在 System.IO.Directory.CreateDirectory(String path)
+   在 NETSpider.Gather.cGatherTaskTabPageManage.SaveData() 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Gather\cGatherTaskTabPageManage.cs:行号 249
+   在 NETSpider.Gather.cGatherTaskTabPageManage.<>c__DisplayClass16_0.<.ctor>b__3(cGatherUrlItemEventArgs evt) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Gather\cGatherTaskTabPageManage.cs:行号 128
+   在 NETSpider.Gather.cGatherTaskManage.OnThreadAllCompleted() 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Gather\cGatherTaskManage.cs:行号 394
+   在 NETSpider.Gather.cGatherTaskManage.OnThreadAbort(cGatherTaskThreadItem item) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Gather\cGatherTaskManage.cs:行号 377
+   在 NETSpider.Gather.cGatherTaskThreadItem.threadWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Gather\cGatherTaskThreadItem.cs:行号 38
+   在 System.ComponentModel.BackgroundWorker.OnRunWorkerCompleted(RunWorkerCompletedEventArgs e)
+   在 System.ComponentModel.BackgroundWorker.AsyncOperationCompleted(Object arg)
+
+
+
+2015/11/11 15:00:05 : 致命的 －－ 不能保存TableConfigCollection配置文件! 。错误类型:。位置：Save2File<T> at offset 430 in file:line:column C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Common\XmlHelper.cs:74:17
+
+
+2015/11/11 15:00:05:未能找到路径“C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\bin\Debug\Config\categroy\rongzi.com\www.rongzi.com\citylist\.xml”的一部分。
+
+2015/11/11 15:00:05:出现应用程序未处理的异常：2015/11/11 15:00:05
+异常类型：DMSFrameException
+异常消息：不能保存TableConfigCollection配置文件：未能找到路径“C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\bin\Debug\Config\categroy\rongzi.com\www.rongzi.com\citylist\.xml”的一部分。
+异常信息：   在 NETSpider.XmlHelper.Save2File[T](T entity, String filePath, String& errMsg) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Common\XmlHelper.cs:行号 76
+   在 NETSpider.frmTask.SaveTask() 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmTask.cs:行号 420
+   在 NETSpider.frmTask.btnApply_Click(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmTask.cs:行号 221
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+2015/11/11 15:00:36 : 致命的 －－ 不能保存TableConfigCollection配置文件! 。错误类型:。位置：Save2File<T> at offset 430 in file:line:column C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Common\XmlHelper.cs:74:17
+
+
+2015/11/11 15:00:36:未能找到路径“C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\bin\Debug\Config\categroy\rongzi.com\www.rongzi.com\citylist\.xml”的一部分。
+
+2015/11/11 15:00:36:出现应用程序未处理的异常：2015/11/11 15:00:36
+异常类型：DMSFrameException
+异常消息：不能保存TableConfigCollection配置文件：未能找到路径“C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\bin\Debug\Config\categroy\rongzi.com\www.rongzi.com\citylist\.xml”的一部分。
+异常信息：   在 NETSpider.XmlHelper.Save2File[T](T entity, String filePath, String& errMsg) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\Common\XmlHelper.cs:行号 76
+   在 NETSpider.frmTask.SaveTask() 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmTask.cs:行号 420
+   在 NETSpider.frmTask.btnSubmit_Click(Object sender, EventArgs e) 位置 C:\Users\CZB\Desktop\kingkoo1985-NETSpider-master\NETSpider\source\NETSpider\frmTask.cs:行号 225
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+

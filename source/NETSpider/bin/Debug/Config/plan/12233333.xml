@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TaskPlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TaskPlanID>2</TaskPlanID>
+  <PlanName><![CDATA[12233333]]></PlanName>
+  <Remark><![CDATA[3333333333333333333333333333333333333]]></Remark>
+  <ExpireFlag>false</ExpireFlag>
+  <ExpireType>None</ExpireType>
+  <ExpireCount>1</ExpireCount>
+  <ExpireTime>0001-01-01T00:00:00</ExpireTime>
+  <PlanExcuteType>One</PlanExcuteType>
+  <StartDate>2014-09-25T23:16:21.5356245+08:00</StartDate>
+  <StartTime>2014-09-26T10:31:02.4969317+08:00</StartTime>
+  <PlanExcuteString><![CDATA[]]></PlanExcuteString>
+  <PlanItemList>
+    <TaskPlanItem>
+      <TaskPlanItemID>1</TaskPlanItemID>
+      <TaskID>0</TaskID>
+      <TaskType>DataBase</TaskType>
+      <TaskItemType>1</TaskItemType>
+      <CategroyName><![CDATA[]]></CategroyName>
+      <TaskName><![CDATA[getMinDateTime]]></TaskName>
+      <TaskArgs><![CDATA[Data Source=localhost;initial catalog=WDBuyDB50;Integrated Security=True;]]></TaskArgs>
+    </TaskPlanItem>
+  </PlanItemList>
+</TaskPlan>

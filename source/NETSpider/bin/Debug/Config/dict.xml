@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDict xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Dict>
+    <CategoryName><![CDATA[movie1]]></CategoryName>
+    <DictItemList>
+      <DictItem>
+        <DictName><![CDATA[word0]]></DictName>
+      </DictItem>
+      <DictItem>
+        <DictName><![CDATA[word3]]></DictName>
+      </DictItem>
+      <DictItem>
+        <DictName><![CDATA[word5]]></DictName>
+      </DictItem>
+    </DictItemList>
+  </Dict>
+  <Dict>
+    <CategoryName><![CDATA[movie00]]></CategoryName>
+    <DictItemList>
+      <DictItem>
+        <DictName><![CDATA[121212]]></DictName>
+      </DictItem>
+      <DictItem>
+        <DictName><![CDATA[2121212]]></DictName>
+      </DictItem>
+    </DictItemList>
+  </Dict>
+  <Dict>
+    <CategoryName><![CDATA[movie23]]></CategoryName>
+    <DictItemList />
+  </Dict>
+</ArrayOfDict>

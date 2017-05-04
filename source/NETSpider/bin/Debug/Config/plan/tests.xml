@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TaskPlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TaskPlanID>1</TaskPlanID>
+  <PlanName><![CDATA[tests]]></PlanName>
+  <Remark><![CDATA[1111111111111]]></Remark>
+  <ExpireFlag>false</ExpireFlag>
+  <ExpireType>None</ExpireType>
+  <ExpireCount>1</ExpireCount>
+  <ExpireTime>0001-01-01T00:00:00</ExpireTime>
+  <PlanExcuteType>One</PlanExcuteType>
+  <StartDate>2014-09-25T22:58:06.0791643+08:00</StartDate>
+  <StartTime>2014-09-25T23:12:29.0500432+08:00</StartTime>
+  <PlanExcuteString><![CDATA[]]></PlanExcuteString>
+  <PlanItemList>
+    <TaskPlanItem>
+      <TaskPlanItemID>1</TaskPlanItemID>
+      <TaskID>3</TaskID>
+      <TaskType>Task</TaskType>
+      <CategroyName><![CDATA[localhost]]></CategroyName>
+      <TaskName><![CDATA[mv.h31bt.com]]></TaskName>
+      <TaskArgs><![CDATA[]]></TaskArgs>
+    </TaskPlanItem>
+  </PlanItemList>
+</TaskPlan>

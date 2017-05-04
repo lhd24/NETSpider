@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTaskBasePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TaskBasePlan>
+    <TaskPlanID>1</TaskPlanID>
+    <PlanName><![CDATA[tests]]></PlanName>
+  </TaskBasePlan>
+  <TaskBasePlan>
+    <TaskPlanID>2</TaskPlanID>
+    <PlanName><![CDATA[12233333]]></PlanName>
+  </TaskBasePlan>
+</ArrayOfTaskBasePlan>
