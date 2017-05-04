@@ -304,6 +304,9 @@
       <DependentUpon>frmAbourMyWebbrowser.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <None Include="Config\data\www.meilele.com635828473114622068.log" />
+    <None Include="Config\data\www.meilele.com635828477183053387.log" />
+    <None Include="Config\data\www.meilele.com635833614301885430.log" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -315,6 +318,48 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Config\category.xml" />
+    <Content Include="Config\categroy\09wood.com\www.09wood.com.xml" />
+    <Content Include="Config\categroy\09wood.com\www.09wood.com2.xml" />
+    <Content Include="Config\categroy\h31bt.com\movie.douban.com.xml" />
+    <Content Include="Config\categroy\h31bt.com\mv.h31bt.com.xml" />
+    <Content Include="Config\categroy\meilele.com\www.meilele.com.xml" />
+    <Content Include="Config\categroy\news\news.qq.com.xml" />
+    <Content Include="Config\categroy\news\news.sina.com.cn.xml" />
+    <Content Include="Config\categroy\rongzi.com\rongziCitylist.xml" />
+    <Content Include="Config\data\news.qq.com635828463020680755.xml" />
+    <Content Include="Config\data\news.qq.com635828463708942062.xml" />
+    <Content Include="Config\data\news.qq.com635828478192657428.xml" />
+    <Content Include="Config\data\news.qq.com635828510159067720.xml" />
+    <Content Include="Config\data\rongziCitylist635828510720918632.xml" />
+    <Content Include="Config\dict.xml" />
+    <Content Include="Config\plan.xml" />
+    <Content Include="Config\plan\12233333.xml" />
+    <Content Include="Config\plan\tests.xml" />
+    <Content Include="Config\run.xml" />
+    <Content Include="Config\run\news.qq.com635828463020680755.xml" />
+    <Content Include="Config\run\news.qq.com635828463708942062.xml" />
+    <Content Include="Config\run\news.qq.com635828477934476995.xml" />
+    <Content Include="Config\run\news.qq.com635828478192657428.xml" />
+    <Content Include="Config\run\news.qq.com635828510159067720.xml" />
+    <Content Include="Config\run\rongziCitylist635828509345346373.xml" />
+    <Content Include="Config\run\rongziCitylist635828510014587485.xml" />
+    <Content Include="Config\run\rongziCitylist635828510282967921.xml" />
+    <Content Include="Config\run\rongziCitylist635828510720918632.xml" />
+    <Content Include="Config\run\www.09wood.com635833614402505607.xml" />
+    <Content Include="Config\run\www.meilele.com635828463955882466.xml" />
+    <Content Include="Config\run\www.meilele.com635828466796557161.xml" />
+    <Content Include="Config\run\www.meilele.com635828467941499056.xml" />
+    <Content Include="Config\run\www.meilele.com635828473114622068.xml" />
+    <Content Include="Config\run\www.meilele.com635828477183053387.xml" />
+    <Content Include="Config\run\www.meilele.com635833614301885430.xml" />
+    <Content Include="DLL\interop.excel.dll" />
+    <Content Include="DLL\interop.excel.dll" />
+    <Content Include="DLL\interop.excel.dll.VisualState.xml" />
+    <Content Include="DLL\Interop.SHDocVw.dll" />
+    <Content Include="DLL\Interop.SHDocVw.dll" />
+    <Content Include="DLL\MySql.Data.dll" />
+    <Content Include="DLL\SplitButton.dll" />
     <Content Include="Resource\A01.gif" />
     <Content Include="Resource\A02.gif" />
     <Content Include="Resource\A03.gif" />
