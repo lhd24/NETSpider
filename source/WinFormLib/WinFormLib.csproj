@@ -33,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="SplitButton">
-      <HintPath>..\SplitButton.dll</HintPath>
+      <HintPath>..\NETSpider\DLL\SplitButton.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
