@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TaskRunItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1.0</Version>
+  <TaskID>11</TaskID>
+  <CategroyName><![CDATA[meilele.com]]></CategroyName>
+  <TaskName><![CDATA[www.meilele.com]]></TaskName>
+  <DownFilePath><![CDATA[D:\NETSpider]]></DownFilePath>
+  <LoginFlag>false</LoginFlag>
+  <LoginUrl><![CDATA[]]></LoginUrl>
+  <WebCookie><![CDATA[ECS_ID=j02c08185e85ebd44b12e5d77038428c6d5a89c1; region_name=%E5%85%A8%E5%9B%BD; MA_si=u6c4iv3ae29; MLL_CID=1jh1cy9v8u5w]]></WebCookie>
+  <WebEncode>UTF8</WebEncode>
+  <UrlEncode>AUTO</UrlEncode>
+  <Remark><![CDATA[http://www.meilele.com/shenzhen/]]></Remark>
+  <WaitMinutes>1</WaitMinutes>
+  <WaitUrlCount>0</WaitUrlCount>
+  <UrlCount>1</UrlCount>
+  <DownFileQueue>true</DownFileQueue>
+  <TaskType>Normal</TaskType>
+  <ExcuteType>GetOnly</ExcuteType>
+  <IsAjax>false</IsAjax>
+  <ThreadNum>6</ThreadNum>
+  <TryAgainCount>3</TryAgainCount>
+  <TryAgainFlag>true</TryAgainFlag>
+  <AutoLog>true</AutoLog>
+  <AutoErrorLog>true</AutoErrorLog>
+  <TempUrl><![CDATA[http://www.meilele.com/category-chuang/goods-21177.html?page=1&index=1]]></TempUrl>
+  <LastStartPos><![CDATA[<h1 class="goods_name">]]></LastStartPos>
+  <LastEndPos><![CDATA[<div class="d_list">]]></LastEndPos>
+  <UrlList>
+    <TaskItemUrl>
+      <MainUrl><![CDATA[http://www.meilele.com/category-ertongfang/]]></MainUrl>
+      <UrlCount>0</UrlCount>
+      <NextPageFlag>true</NextPageFlag>
+      <NextPageText><![CDATA[下一页]]></NextPageText>
+      <LevelCount>1</LevelCount>
+      <NavigateFlag>true</NavigateFlag>
+      <LevelUrlList>
+        <TaskItemLevelUrl>
+          <LevelID>1</LevelID>
+          <LevelUrl>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</LevelUrl>
+        </TaskItemLevelUrl>
+      </LevelUrlList>
+      <StartPos><![CDATA[]]></StartPos>
+      <EndPos><![CDATA[]]></EndPos>
+    </TaskItemUrl>
+  </UrlList>
+  <ColumnItemList>
+    <TaskColumnItem>
+      <DataFileType>Text</DataFileType>
+      <DataTextType><![CDATA[标题]]></DataTextType>
+      <StartPos><![CDATA[<span id="JS_attr_title_name">]]></StartPos>
+      <EndPos><![CDATA[</span>]]></EndPos>
+      <LimitSign>LimitSign1</LimitSign>
+      <LimitSignText><![CDATA[]]></LimitSignText>
+      <ExportLimit>ExportLimit1</ExportLimit>
+      <ExportLimitText><![CDATA[]]></ExportLimitText>
+      <LimitSignSpaceFlag>false</LimitSignSpaceFlag>
+      <ExportLimitSpaceFlag>true</ExportLimitSpaceFlag>
+    </TaskColumnItem>
+    <TaskColumnItem>
+      <DataFileType>Text</DataFileType>
+      <DataTextType><![CDATA[编号]]></DataTextType>
+      <StartPos><![CDATA[编号：]]></StartPos>
+      <EndPos><![CDATA[</span>]]></EndPos>
+      <LimitSign>LimitSign1</LimitSign>
+      <LimitSignText><![CDATA[]]></LimitSignText>
+      <ExportLimit>ExportLimit1</ExportLimit>
+      <ExportLimitText><![CDATA[]]></ExportLimitText>
+      <LimitSignSpaceFlag>false</LimitSignSpaceFlag>
+      <ExportLimitSpaceFlag>true</ExportLimitSpaceFlag>
+    </TaskColumnItem>
+    <TaskColumnItem>
+      <DataFileType>Text</DataFileType>
+      <DataTextType><![CDATA[二级标题]]></DataTextType>
+      <StartPos><![CDATA[<span id="DY_main_goods_sub_title">]]></StartPos>
+      <EndPos><![CDATA[</span>]]></EndPos>
+      <LimitSign>LimitSign1</LimitSign>
+      <LimitSignText><![CDATA[]]></LimitSignText>
+      <ExportLimit>ExportLimit1</ExportLimit>
+      <ExportLimitText><![CDATA[]]></ExportLimitText>
+      <LimitSignSpaceFlag>true</LimitSignSpaceFlag>
+      <ExportLimitSpaceFlag>true</ExportLimitSpaceFlag>
+    </TaskColumnItem>
+    <TaskColumnItem>
+      <DataFileType>Image</DataFileType>
+      <DataTextType><![CDATA[图片]]></DataTextType>
+      <StartPos><![CDATA[<img src="]]></StartPos>
+      <EndPos><![CDATA[" width="565" height="374"]]></EndPos>
+      <LimitSign>LimitSign1</LimitSign>
+      <LimitSignText><![CDATA[]]></LimitSignText>
+      <ExportLimit>ExportLimit2</ExportLimit>
+      <ExportLimitText><![CDATA[]]></ExportLimitText>
+      <LimitSignSpaceFlag>true</LimitSignSpaceFlag>
+      <ExportLimitSpaceFlag>true</ExportLimitSpaceFlag>
+    </TaskColumnItem>
+    <TaskColumnItem>
+      <DataFileType>Text</DataFileType>
+      <DataTextType><![CDATA[本站价]]></DataTextType>
+      <StartPos><![CDATA[本站价：]]></StartPos>
+      <EndPos><![CDATA[</del>]]></EndPos>
+      <LimitSign>LimitSign1</LimitSign>
+      <LimitSignText><![CDATA[]]></LimitSignText>
+      <ExportLimit>ExportLimit2</ExportLimit>
+      <ExportLimitText><![CDATA[]]></ExportLimitText>
+      <LimitSignSpaceFlag>true</LimitSignSpaceFlag>
+      <ExportLimitSpaceFlag>true</ExportLimitSpaceFlag>
+    </TaskColumnItem>
+  </ColumnItemList>
+  <ConnectionType>None</ConnectionType>
+  <ConnectionString><![CDATA[]]></ConnectionString>
+  <PubWebCookie><![CDATA[]]></PubWebCookie>
+  <PubDataTable><![CDATA[]]></PubDataTable>
+  <PubSql><![CDATA[]]></PubSql>
+  <PubEncode>AUTO</PubEncode>
+  <TriggerType>GetData</TriggerType>
+  <TaskPlanItemList>
+    <TaskPlanItem>
+      <TaskPlanItemID>1</TaskPlanItemID>
+      <TaskID>8</TaskID>
+      <TaskType>Task</TaskType>
+      <TaskItemType>0</TaskItemType>
+      <CategroyName><![CDATA[localhost]]></CategroyName>
+      <TaskName><![CDATA[movie.douban.com]]></TaskName>
+      <TaskArgs><![CDATA[]]></TaskArgs>
+    </TaskPlanItem>
+  </TaskPlanItemList>
+  <TaskTempName><![CDATA[www.meilele.com635828473114622068]]></TaskTempName>
+  <TrueCount>1</TrueCount>
+  <ErrorCount>44</ErrorCount>
+  <TotalCount>45</TotalCount>
+  <ParentTaskTempName><![CDATA[]]></ParentTaskTempName>
+  <GaterherState>Completed</GaterherState>
+  <GatherUrlItemCompleteList>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongfang/</Url>
+      <GaterherFlag>Completed</GaterherFlag>
+      <Level>0</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos />
+      <EndPos />
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-115691.html?page=1&amp;index=3</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-26854.html?page=1&amp;index=1</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongyigui/goods-25455.html?page=1&amp;index=2</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-155380.html?page=1&amp;index=6</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-21277.html?page=1&amp;index=4</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-37352.html?page=1&amp;index=5</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-124704.html?page=1&amp;index=9</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuangdian/goods-65499.html?page=1&amp;index=7</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongshuzhuoertongdiannaotai/goods-25460.html?page=1&amp;index=8</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-39775.html?page=1&amp;index=12</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-25461.html?page=1&amp;index=10</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-197951.html?page=1&amp;index=13</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuangdian/goods-64817.html?page=1&amp;index=11</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongshuzhuoertongdiannaotai/goods-25872.html?page=1&amp;index=15</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-139228.html?page=1&amp;index=14</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-144920.html?page=1&amp;index=16</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-37163.html?page=1&amp;index=19</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongyigui/goods-187683.html?page=1&amp;index=18</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuangdian/goods-45488.html?page=1&amp;index=20</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-103147.html?page=1&amp;index=17</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-31233.html?page=1&amp;index=22</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongshuzhuoertongdiannaotai/goods-25501.html?page=1&amp;index=21</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-37170.html?page=1&amp;index=25</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-139209.html?page=1&amp;index=26</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-187326.html?page=1&amp;index=24</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-106973.html?page=1&amp;index=28</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-144907.html?page=1&amp;index=23</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-155347.html?page=1&amp;index=31</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongshuzhuoertongdiannaotai/goods-139899.html?page=1&amp;index=27</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-102008.html?page=1&amp;index=32</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-102372.html?page=1&amp;index=34</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-144934.html?page=1&amp;index=29</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-155358.html?page=1&amp;index=30</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-diban/goods-190103.html</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-53997.html?page=1&amp;index=33</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-dengguangyuan/goods-56607.html</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-cizhuan/goods-49412.html</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-155489.html?page=1&amp;index=35</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-ertongchuang/goods-106970.html?page=1&amp;index=36</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-cizhuan/goods-48426.html</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-maojin/goods-29213.html</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-zhenxin/goods-182234.html</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-jinghuachuwei/goods-201524.html</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+    <cGatherUrlItem>
+      <Url>http://www.meilele.com/category-maojin/goods-34842.html</Url>
+      <GaterherFlag>Error</GaterherFlag>
+      <Level>1</Level>
+      <LevelUrlList>
+        <string>&lt;Regex:/category(\S*)/goods-(\d*)&gt;</string>
+      </LevelUrlList>
+      <NextPageText>下一页</NextPageText>
+      <StartPos>&lt;h1 class="goods_name"&gt;</StartPos>
+      <EndPos>&lt;div class="d_list"&gt;</EndPos>
+    </cGatherUrlItem>
+  </GatherUrlItemCompleteList>
+  <GatherUrlItemTempList />
+  <GatherFileItemCompleteList />
+  <GatherFileItemTempList />
+</TaskRunItem>

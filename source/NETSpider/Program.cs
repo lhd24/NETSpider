@@ -79,7 +79,7 @@ namespace NETSpider
         }
         public static string GetConfigPath()
         {
-            string dirPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config");
+            string dirPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "App_Data\\Config");
             if (!System.IO.Directory.Exists(dirPath))
             {
                 System.IO.Directory.CreateDirectory(dirPath);

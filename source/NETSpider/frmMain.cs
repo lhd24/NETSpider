@@ -1204,7 +1204,7 @@ namespace NETSpider
                     {
                         string categoryName = TryParse.ToString(this.dgvList["CategroyName", item.Index].Value);
                         string taskName = TryParse.ToString(this.dgvList["TaskName", item.Index].Value);
-                        string taskFilePath = categoryName + @"\" + taskName + ".xml";
+                        string taskFilePath = "categroy\\" + categoryName + @"\" + taskName + ".xml";
                         string errMsg = string.Empty;
                         TaskItem taskEntity = XmlHelper.LoadFromXml<TaskItem>(Program.GetConfigPath(taskFilePath), ref errMsg);
                         if (!string.IsNullOrEmpty(errMsg))
